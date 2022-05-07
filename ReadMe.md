@@ -15,3 +15,6 @@ Project is created using ASP.NET framework, using MVC architecture.
 
 - Anand Anthony Francis
 - Umang Andrew Francis
+- Nirupam Kumar Sinha
+- Ritwik Bandyopadhyay
+
