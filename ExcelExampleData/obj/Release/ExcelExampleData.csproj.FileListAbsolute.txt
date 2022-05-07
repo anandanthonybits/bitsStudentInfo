@@ -1,0 +1,16 @@
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\ExcelExampleData.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\ExcelExampleData.pdb
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\EPPlus.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\EPPlus.Extensions.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\NPOI.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\NPOI.OOXML.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\NPOI.OpenXml4Net.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\NPOI.OpenXmlFormats.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\EPPlus.xml
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\bin\Release\NPOI.xml
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\obj\Release\ExcelExampleData.csproj.AssemblyReference.cache
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\obj\Release\ExcelExampleData.csproj.CoreCompileInputs.cache
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\obj\Release\ExcelExampleData.csproj.CopyComplete
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\obj\Release\ExcelExampleData.dll
+F:\TestingApps\BitsUserDirectory\ExcelExampleData\obj\Release\ExcelExampleData.pdb
