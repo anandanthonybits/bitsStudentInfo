@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'bitsStudentFinderApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9BBD01DDFF2A40BD8711E2B563119B8A }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
