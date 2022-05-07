@@ -9,7 +9,9 @@ Project is created using ASP.NET framework, using MVC architecture.
 ## Contribution by members:
 
 - Backend (HomeController) : Anand Anthony Francis
+- FrontEnd (Index.cshtml, site.css, _Layout.cshtml): Umang Andrew Francis
 
 ## Contributors:
 
 - Anand Anthony Francis
+- Umang Andrew Francis
