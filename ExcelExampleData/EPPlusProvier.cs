@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OfficeOpenXml;
 using System.IO;
 using EPPlus.Extensions;
+using System.ComponentModel;
 
 namespace ExcelExampleData
 {
@@ -58,8 +59,11 @@ namespace ExcelExampleData
     }
     public class StudentInfo
     {
+        [DisplayName("Name")]
         public string name { get; set; }
+        [DisplayName("Roll No.")]
         public string rollNo { get; set; }
+        [DisplayName("Alias")]
         public string shortUrl { get; set; }
     }
 }
