@@ -1,0 +1,42 @@
+﻿@model ExcelExampleData.StudentInfo
+
+@{
+    ViewBag.Title = "UserDetails";
+}
+
+<h2>UserDetails</h2>
+
+<div>
+    <h4>StudentInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rollNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rollNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shortUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shortUrl)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

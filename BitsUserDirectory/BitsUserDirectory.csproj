@@ -139,6 +139,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Data\StudentDB.xlsx" />
+    <None Include="Properties\PublishProfiles\bitsStudentFinderApp - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\bitsStudentFinderApp - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\bitsStudentFinderApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -165,6 +168,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\UserDetails.cshtml" />
+    <Content Include="Views\Home\notFound.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

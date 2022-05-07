@@ -20,7 +20,14 @@ namespace BitsUserDirectory.Controllers
         {
             string userName = form["userName"];
             StudentInfo studentInfo = SearchUseEPPlus(userName);
-            return View("UserDetails", studentInfo);
+            if (string.IsNullOrEmpty(studentInfo.name))
+            {
+                return View("notFound");
+            }
+            else
+            {
+                return View("UserDetails", studentInfo);
+            }
         }
 
         [HttpPost]
@@ -35,9 +42,13 @@ namespace BitsUserDirectory.Controllers
         [HttpPost]
         public StudentInfo SearchUseEPPlus(string searchName)
         {
+            StudentInfo studentInfo = new StudentInfo();
             var data = new EPPlusProvier(Server.MapPath("~/App_Data/StudentDB.xlsx")).SearchRow(searchName);
-            StudentInfo studentInfo = (from d in data
-                                       select d).FirstOrDefault();
+            if (data != null)
+            {
+                studentInfo = (from d in data
+                                           select d).FirstOrDefault();
+            }            
             return studentInfo;
         }
 
