@@ -13,8 +13,7 @@ Project is conceived by Anand Anthony Francis and is created using ASP.NET frame
 
 ## Contributors:
 
-- Anand Anthony Francis
-- Umang Andrew Francis
-- Nirupam Kumar Sinha   -   2021mt93326
-- Ritwik Bandyopadhyay
+- Anand Anthony Francis - 2021MT93313
+- Umang Andrew Francis - 2021MT 93319
+- Nirupam Kumar Sinha   -   2021MT93326
 
